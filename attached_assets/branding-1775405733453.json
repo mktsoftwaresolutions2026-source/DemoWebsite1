@@ -1,0 +1,143 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Anek Latin",
+      "role": "body"
+    },
+    {
+      "family": "Anek Devanagari",
+      "role": "unknown"
+    }
+  ],
+  "colors": {
+    "primary": "#2B5D78",
+    "secondary": "#EA6624",
+    "accent": "#EA6624",
+    "background": "#FCFCFC",
+    "textPrimary": "#3F210A",
+    "link": "#3F210A"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Anek Latin",
+      "heading": "Anek Latin"
+    },
+    "fontStacks": {
+      "heading": [
+        "Anek Devanagari",
+        "sans-serif"
+      ],
+      "body": [
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Anek Devanagari",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "60px",
+      "h2": "64px",
+      "body": "30px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 10,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "input": {
+      "background": "#EBEBEB",
+      "textColor": "#000000",
+      "borderColor": null,
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#EA6624",
+      "textColor": "#000000",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "rgba(0, 0, 0, 0.145) 0px 0.602187px 0.602187px -1.25px, rgba(0, 0, 0, 0.125) 0px 2.28853px 2.28853px -2.5px, rgba(0, 0, 0, 0.05) 0px 10px 10px -3.75px"
+    },
+    "buttonSecondary": {
+      "background": "#CA392A",
+      "textColor": "#FFFFFF",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": "File saved at: attached_assets/favicon.png",
+    "ogImage": "File saved at: attached_assets/ogImage.png",
+    "logoHref": "File saved at: attached_assets/logoHref.html"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is located in the header, is visible, and links to the homepage, which are strong indicators of the main brand logo.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 1,
+      "text": "Submit",
+      "reasoning": "Button #1 ('Submit') uses a vibrant brand color (#EA6624) and is likely associated with a form submission, making it a strong candidate for the primary CTA."
+    },
+    "secondary": {
+      "index": 0,
+      "text": "Subscribe",
+      "reasoning": "Button #0 ('Subscribe') uses a different vibrant color (#CA392A) and serves a secondary action, making it suitable as the secondary CTA."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "Food enthusiasts and tea lovers in India"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is located in the header, is visible, and links to the homepage, which are strong indicators of the main brand logo.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

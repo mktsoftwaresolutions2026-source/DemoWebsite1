@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Burma Burma"
+version = "1.0.0"
+id = "artifacts/burma-burma"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25557
+
+[services.development]
+run = "pnpm --filter @workspace/burma-burma run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/burma-burma", "run", "build" ]
+publicDir = "artifacts/burma-burma/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25557"
+BASE_PATH = "/"
